@@ -13,6 +13,8 @@ body > * {
     padding-right: 100px;
 }
 
+/* HEADER STYLES */
+
 .header {
     background-color: #1F2937;
     display: flex;
@@ -38,6 +40,8 @@ body > * {
     text-decoration: none;
 }
 
+/* ROW #1 STYLES */
+
 .row-one {
     background-color: #1F2937;
     display: flex;
@@ -62,7 +66,7 @@ body > * {
     color: #E5E7EB;
 }
 
-button {
+.one-left > a > button {
     background-color: #3882F6;
     border-radius: 15px;
     font-size: 18px;
@@ -76,27 +80,117 @@ button {
     justify-content: center;
     align-items: center;
     width: 550px;
-    height: 200px;
+    height: 225px;
     margin-left: 50px;
+    flex-shrink: 0;
 }
+
+/* ROW #2 STYLES */
 
 .row-two {
     flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.information-header {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    padding: 50px;
+    justify-self: center;
+    align-self: center;
+}
+
+.sub-sections {
+    display: flex;
+    justify-content: space-around;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    width: 208px;
+    padding-bottom: 100px;
 }
 
 .square {
-    height: 100px;
-    width: 100px;
-    border: 2px solid #3882F6;
+    height: 200px;
+    width: 200px;
+    border: 4px solid #3882F6;
+    border-radius: 20px;
 }
+
+/* ROW #3 STYLES */
 
 .row-three {
     flex: 1;
+    background-color: #E5E7EB;
+    padding-top: 100px;
+    padding-bottom: 75px;
 }
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    padding: 0px 100px;
+}
+
+.author {
+    color: #1F2937;
+    font-weight: bold;
+    font-size: 24px;
+    padding: 24px 150px 0px 0px;
+    text-align: right;
+}
+
+/* ROW #4 STYLES */
 
 .row-four {
     flex: 1;
+    align-self: center;
+    padding: 50px 100px;
 }
+
+.blue-container {
+    background-color: #3882F6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    padding: 30px 96px;
+}
+
+.four-left {
+    font-size: 24px;
+    color: #F9FAF8;
+    padding-right: 30px;
+}
+
+.four-left > p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.blue-container > a {
+    flex-shrink: 0;
+    padding-left: 50px;
+}
+
+.blue-container > a > button {
+    border-color: #F9FAF8;
+    background-color: #3882F6;
+    border-radius: 15px;
+    font-size: 18px;
+    color: #F9FAF8;
+    padding: 8px 30px;
+}
+
+/* FOOTER STYLES */
 
 .footer {
     background-color: #1F2937;
